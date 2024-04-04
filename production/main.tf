@@ -21,7 +21,7 @@ resource "aws_instance" "my_web_app" {
   }
 }
 
-resource "aws_lambda_function" "my_hello_world_2" {
+resource "aws_lambda_function" "my_hello_world" {
   runtime       = "nodejs12.x"
   handler       = "exports.test"
   image_uri     = "test"
